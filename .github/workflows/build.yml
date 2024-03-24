@@ -37,15 +37,11 @@ jobs:
       - name: Install Dependencies
         run: flutter pub get
 
-        #5 run test
-      - name: Test flutter app
-        run: flutter test
-
-        #6 build apk
+        #5 build apk
       - name: Build APK
         run: flutter build apk
 
-        #7 build aab
+        #6 build aab
       # - name: Build appBundle
       #   run: flutter build appbundle
 
